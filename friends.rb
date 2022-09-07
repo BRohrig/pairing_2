@@ -5,3 +5,8 @@ numbers.each do |nums|
     end
 end
 
+numbers.each do |nums|
+    if nums < 60
+        p nums
+    end
+end
